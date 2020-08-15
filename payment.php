@@ -21,7 +21,7 @@ try {
         "phone"=>$Phone,
         "send_sms" => true,
         "allow_repeated_payments" =>false,
-        "redirect_url" => "https://payment-gateway-integration.000webhostapp.com/redirect.php"
+        "redirect_url" => "https://sstejesh.github.io/payment-integration/redirect.php"
         ));
     //print_r($response);
     $pay_url=$response['longurl'];
