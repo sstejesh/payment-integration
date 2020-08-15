@@ -36,7 +36,7 @@
 <p>Note : Check Your Email For Transection Detail</p>
  <?php
 
-include 'src/instamojo.php';
+include 'instamojo.php';
 
 $api = new Instamojo\Instamojo('test_3743a7a31d4c8d710f488ba8e39', 'test_2df6effdc4b9b2e6dd53dddd5a1','https://test.instamojo.com/api/1.1/');
 
