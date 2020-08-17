@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Donation Form</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 </head>
 <body style="background-color: #F71C06;">
 <div class="container">
