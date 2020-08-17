@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700,800&display=swap');
 html{
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
   
 }
 *
  {
   margin: 0;
   padding: 0;
-  font-family: 'Josefin Sans';
+  font-family: 'arial';
   box-sizing: border-box;
   text-shadow: 0.5px 0.5px 1px black;
  }
@@ -44,7 +43,7 @@ html{
   font-size: 20px;
   padding: 15px;
   padding-top: 10px;
-  color: #610894;
+  color: #0606c5;
   text-align: center;
 }
 .top .logo 
@@ -71,7 +70,7 @@ html{
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #610894;
+  color: #0606c5;
   border-bottom: 3px solid  #f6b209;
 }
 
@@ -115,7 +114,7 @@ main button
   text-align: center;
   font-size: 25px;
   border: none;
-  background-color: #e08e06;
+  background: linear-gradient(to bottom,#ed08bc,#0606c5);
   border-radius: 15px;
   -webkit-box-reflect:bottom 1% linear-gradient(transparent,#0004);
   
@@ -125,7 +124,7 @@ main button
 main button a
 {
   text-decoration: none;
-  color: #c50694;
+  color: #f6b209;
 }
 
 main button a:hover
@@ -162,7 +161,7 @@ main .brief
 {
   font-size: 40px;
   text-transform: capitalize;
-  color: #610894;
+  color: #0606c5;
   margin-top: 10%;
 }
 .brief h1
@@ -177,7 +176,7 @@ main .brief
 {
   font-size: 20px;
   font-weight: 500;
-  color: #610894;
+  color: #0606c5;
 }
 main img{
   width: 75%;
@@ -295,7 +294,7 @@ main img{
 {
   float: right;
   padding: 10px;
-  color: #ed08bc;
+  color: #fa02b6;
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 2px;
