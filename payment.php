@@ -1,4 +1,3 @@
-
 <?php
 
 $Name=$_POST['Name'];
@@ -21,16 +20,14 @@ try {
         "phone"=>$Phone,
         "send_sms" => true,
         "allow_repeated_payments" =>false,
-        "redirect_url" => "https://sstejesh.github.io/payment-integration/redirect.php"
+        "redirect_url" => "https://phoebean-cables.000webhostapp.com/redirect.php"
         ));
     //print_r($response);
     $pay_url=$response['longurl'];
     header("location: $pay_url");
+    
 	}
 	catch (Exception $e) {
 	    print('Error: ' . $e->getMessage());
 	}
-
-
-
 ?>
