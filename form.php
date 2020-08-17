@@ -4,10 +4,10 @@
 <title>Donation Form</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 </head>
-<body>
+<body style="background-color: #F71C06;">
 <div class="container">
-    <div class="col-xs-6 col-xs-offset-3">
-        <div class="panel panel-default">
+    <div class="col-xs-6 col-xs-offset-3" style="background-color: #f3f706;">
+        <div class="panel panel-default" style="background-color: #0d06f7;">
             <div class="panel-heading" class="single_input wow fadeInUp" data-wow-duration="1s">
             
                 <h3 class="text-center">Donation Form </h3>
