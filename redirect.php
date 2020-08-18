@@ -40,7 +40,6 @@ $payid = $_GET["payment_request_id"];
 try {
     $response = $api->paymentRequestStatus($payid);
 
-
     echo "<h4>Payment ID: " . $response['payments'][0]['payment_id'] . "</h4>" ;
     echo "<h4>Payment Name: " . $response['payments'][0]['buyer_name'] . "</h4>" ;
     echo "<h4>Payment Email: " . $response['payments'][0]['buyer_email'] . "</h4>" ;
@@ -58,10 +57,9 @@ catch (Exception $e) {
 
   ?>
 
-<h4>To go back to our website, <a href="
-https://phoebean-cables.000webhostapp.com/task4.html">Click Here</a></h4>
+<h4>To go back to our website, <a href="https://phoebean-cables.000webhostapp.com">Click Here</a></h4>
       
-    </div> <!-- /container -->
+    </div>
 
 
   </body>
