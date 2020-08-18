@@ -6,10 +6,8 @@ $Amount=$_POST['Amount'];
 $Phone=$_POST['phone'];
 $purpose='Donation';
 
-
 include 'instamojo.php';
 $api = new Instamojo\Instamojo('test_785179e8fc420d0f7c1bb358384', 'test_c7bd3b894841458f8166a9cf432', 'https://test.instamojo.com/api/1.1/');
-
 try {
     $response = $api->paymentRequestCreate(array(
         "purpose" => $purpose,
