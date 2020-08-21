@@ -1,16 +1,16 @@
 <!doctype html>
 <html>
 <head>
-<title>Donation-Form</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+<title>Donation Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 </head>
-<body style="background-color: #F71C06;">
-<div class="container">
-    <div class="col-xs-6 col-xs-offset-3" style="background-color: #f3f706;">
-        <div class="panel panel-default" style="background-color: #0d06f7;">
-            <div class="panel-heading" class="single_input wow fadeInUp" data-wow-duration="1s">
+<body style="background-color: #555;">
+<div class="container" style="padding-top: 150px;">
+    <div class="col-xs-6 col-xs-offset-3" style="background-color: #ff5733;">
+        <div class="panel panel-default" style="background-color: #ff5733;">
+            <div class="panel-heading" class="single_input wow fadeInUp" data-wow-duration="1s" style="background-color: #ff5733" style="text-align: center;">
             
-                <h3 class="text-center">Donation Form </h3>
+                <h1 class="text-center">Donation Form </h1>
             </div>
             <div class="panel-body">
             <form action="payment.php" method="post">
